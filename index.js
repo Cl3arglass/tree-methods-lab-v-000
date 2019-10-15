@@ -8,6 +8,6 @@ function inOrder(currentNode){
   }
 }
 
-function findOrAdd(rootNode, firstNewNode) {
+function findOrAdd(rootNode, newNode) {
 
 }
