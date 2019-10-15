@@ -28,3 +28,11 @@ function findOrAdd(currentNode, newNode) {
       }
     }
 }
+
+function max(){
+  if(currentNode.right){
+   return max(currentNode.right)
+ } else {
+   return currentNode;
+ }
+}
